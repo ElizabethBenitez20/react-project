@@ -1,5 +1,5 @@
 .Weather {
-  font-family: arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   border: 1px solid #dadde1;
   padding: 16px;
   border-radius: 4px;
@@ -46,4 +46,12 @@
   position: relative;
   line-height: 1;
   top: -34px;
+  left: 5px;
+}
+
+.button-unit {
+  background: rgb(143, 180, 253);
+  border: none;
+  border-radius: 50px;
+  padding: 5px;
 }
