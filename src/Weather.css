@@ -4,7 +4,12 @@
   padding: 16px;
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.578);
+  -webkit-box-shadow: 1px 1px 50px 10px rgba(143, 180, 253, 1);
+  -moz-box-shadow: 1px 1px 50px 10px rgba(143, 180, 253, 1);
+  box-shadow: 1px 1px 50px 10px rgba(143, 180, 253, 1);
   color: black;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 .Weather h1 {
@@ -61,29 +66,4 @@
   background: rgb(143, 180, 253);
   color: black;
   border: 1px solid rgb(143, 180, 253);
-}
-
-body {
-  background: linear-gradient(
-    -45deg,
-    black,
-    white,
-    #55c6ef,
-    rgb(137, 137, 245)
-  );
-  background-size: 400% 400%;
-  animation: gradient 30s ease infinite;
-  height: 100vh;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }

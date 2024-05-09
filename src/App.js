@@ -1,9 +1,13 @@
 import Weather from "./Weather";
+import bgImage from "./video/background-img.mp4";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
+      <video autoPlay loop muted>
+        <source src={bgImage} type="video/mp4" />
+      </video>
       <Weather defaultCity="Asunción" />
       <footer>
         This project was coded by{" "}
