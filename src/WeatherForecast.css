@@ -2,10 +2,16 @@
   text-align: center;
   position: relative;
   left: 3px;
-  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.WeatherForecast-temperature-max {
+  color: blue;
 }
 
 .WeatherForecast-temperature-min {
+  color: blue;
   opacity: 0.6;
   margin-left: 5px;
 }

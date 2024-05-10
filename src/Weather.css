@@ -18,7 +18,7 @@
   margin: 30px 0 10px 0;
   line-height: 29px;
   text-align: center;
-  text-shadow: 0 0 20px rgb(40, 95, 204), 0 0 40px rgb(57, 115, 231);
+  text-shadow: 0 0 10px rgb(40, 95, 204), 0 0 40px rgb(57, 115, 231);
 }
 
 .Weather ul {
@@ -62,6 +62,7 @@
 
 .button-unit {
   background: rgb(143, 180, 253);
+  box-shadow: 0 0 5px rgb(40, 95, 204), 0 0 75px rgb(57, 115, 231);
   border: none;
   border-radius: 50px;
   padding: 5px;
@@ -76,4 +77,8 @@
 .clearfix {
   margin-top: 5px;
   text-align: center;
+}
+
+.data-color {
+  color: blue;
 }
