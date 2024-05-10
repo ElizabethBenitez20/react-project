@@ -13,15 +13,18 @@
 }
 
 .Weather h1 {
-  font-size: 24px;
+  font-size: 35px;
   font-weight: 100;
-  margin: 20px 0 0 0;
+  margin: 30px 0 10px 0;
   line-height: 29px;
+  text-align: center;
+  text-shadow: 0 0 20px rgb(40, 95, 204), 0 0 40px rgb(57, 115, 231);
 }
 
 .Weather ul {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .Weather li {
@@ -43,6 +46,8 @@
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
+  position: relative;
+  top: -10px;
 }
 
 .Weather .unit {
@@ -51,7 +56,7 @@
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -45px;
   left: 5px;
 }
 
@@ -66,4 +71,9 @@
   background: rgb(143, 180, 253);
   color: black;
   border: 1px solid rgb(143, 180, 253);
+}
+
+.clearfix {
+  margin-top: 5px;
+  text-align: center;
 }
